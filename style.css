@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+:root{
+    --fonte1: "DM Serif Text", serif;
+    --fonte2: "Grey Qo", cursive; 
+    --fonte3: "Kalam", cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html, body{
+    min-height: 100vh;
+    background-color: rgb(245, 244, 244);
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 180px;
+}
+
+header > a{
+    color: red;
+    font-family: var(--fonte2);
+    font-size: 75pt;
+    font-weight: 600;
+    padding-bottom: 30px;
+    text-decoration: none;
+}
+
+header > a:hover{
+    color: white;
+}
+
+div#music-name{
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    margin-top: 50px;
+    width: 150px;
+    padding: 20px;
+    border-radius: 400px;
+}
+
+div#music-name:hover{
+    transform: scale(1.05);
+}
+
+div#music-name > a{
+    color: white;
+    text-decoration: none;
+}
+
+#lyrics{
+    display: flex;
+    width: 100%;
+}
+
+.text-not-bg{
+    font-family: var(--fonte3);
+    font-weight: 600;
+    font-size: 18pt;
+    line-height: 3.2rem;
+    margin: 40px 100px;
+    text-align: left;
+}
+
+.text-bg{
+    font-family: var(--fonte3);
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.733);
+    border-radius: 10px;
+    background-size: 100%;
+    color: white;
+    font-size: 18pt;
+    line-height: 3.2rem;
+    padding: 40px 100px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.589);
+}
+
+#lyrics2{
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+}
+
+#lyrics3{
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/bg2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+
+}
+
+#lyrics-hollowed{
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/bg3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+}
+
+#lyrics-hollowed2{
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/bg4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+    margin-bottom: 40px;
+}
+
+#lyrics-addict{
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/bg5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+}
+
+#lyrics-addict2{
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/bg6.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    height: 50px;
+    border-top: 1px red solid;
+}
+
+footer > p{
+    color: white;
+}
+
+footer > p > a{
+    color: red;
+    text-decoration: none;
+    margin: 0;
+}

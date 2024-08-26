@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root{
+    --fonte1: "DM Serif Text", serif;
+    --fonte2: "Grey Qo", cursive; 
+    --fonte3: "Playfair Display", serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(245, 244, 244);
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 150px;
+}
+
+header > h1{
+    color: red;
+    font-family: var(--fonte2);
+    font-size: 80pt;
+}
+
+nav{
+    display: flex;
+    background-color: black;
+
+}
+nav > a{
+    background-color: black;
+    font-family: var(--fonte1);
+    font-weight: 400;
+    text-align: center;
+    color: red;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-bottom: 15px;
+
+}
+
+nav > a:hover{
+    color: white;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px;
+}
+
+.format{
+    width: 220px;
+    margin-inline: 35px;
+}
+
+.format :hover{
+    transform: scale(1.05);
+    transition: transform 0.5s;
+}
+
+.sect-format{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-size: cover;
+    width: 100%;
+    margin-inline: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+main > section > div > a{
+    font-family: var(--fonte1);
+    padding-top: 10px;
+    font-size: 16pt;
+    color: black;
+    font-weight: 400;
+}
+
+.imgs{
+    width: 220px;
+    height: 220px;
+}
+
+div > a{
+    color: black;
+    text-decoration: none;
+    font-size: 16pt;
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 50px;
+    border-top: 1px red solid;
+}
+
+footer > p{
+    color: white;
+}
+
+footer > p > a{
+    color: red;
+    text-decoration: none;
+}
