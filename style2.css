@@ -20,6 +20,7 @@
 }
 
 body{
+    height: 100vh;
     background-color: rgb(245, 244, 244);
 }
 
@@ -33,30 +34,15 @@ header{
     height: 150px;
 }
 
-header > h1{
+header > a{
     color: red;
     font-family: var(--fonte2);
-    font-size: 80pt;
-}
-
-nav{
-    display: flex;
-    background-color: black;
-
-}
-nav > a{
-    background-color: black;
-    font-family: var(--fonte1);
-    font-weight: 400;
-    text-align: center;
-    color: red;
+    font-size: 3em;
     text-decoration: none;
-    margin-left: 50px;
-    margin-bottom: 15px;
-
+    padding-bottom: 20px;
 }
 
-nav > a:hover{
+header > a:hover{
     color: white;
 }
 
@@ -78,12 +64,11 @@ main{
     transition: transform 0.5s;
 }
 
-.sect-format{
+section{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-size: cover;
-    width: 100%;
+    width: 100vh;
     margin-inline: 50px;
     text-align: center;
     margin-bottom: 40px;
@@ -105,17 +90,16 @@ main > section > div > a{
 div > a{
     color: black;
     text-decoration: none;
-    font-size: 16pt;
-
 }
 
 footer{
     display: flex;
     justify-content: center;
+    text-align: center;
     align-items: center;
     background-color: black;
-    height: 50px;
     border-top: 1px red solid;
+    height: 50px;
 }
 
 footer > p{
