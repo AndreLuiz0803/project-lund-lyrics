@@ -141,7 +141,7 @@ section.with-bg{
 #low-bg{
     display: flex;
     flex-direction: column;
-    background-image: url(img/ilustracao-de-personagem-de-anime-na-chuva.jpg);
+    background-image: url(img/low-bg-edit.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -150,7 +150,7 @@ section.with-bg{
 #low-bg2{
     display: flex;
     flex-direction: column;
-    background-image: url(https://img.freepik.com/free-photo/illustration-anime-character-rain_23-2151394696.jpg?t=st=1724875807~exp=1724879407~hmac=ba07cbd86228fabeff18f7bb621f183e7a50d1ec718e4b426b69babc6267853a&w=1380);
+    background-image: url(img/low-bg2-edit.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
